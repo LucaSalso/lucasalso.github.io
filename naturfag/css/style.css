@@ -1,0 +1,49 @@
+body {
+    background-color:darkgrey;
+}
+
+.innhold {
+    background-color: lightgrey;
+    width: 33%;
+    border: 5px solid green;
+    padding: 5px;
+    margin: 10px;
+  }
+
+.info {
+    background-color: lightgrey;
+    width: 50%;
+    border: 5px solid blue;
+    padding: 5px;
+    margin: 10px;
+  }
+
+#container {
+  display: flex;
+}
+
+#info-container {
+  display: flex;
+}
+
+#nav {
+  display: flex;
+  border: solid black 2px;
+}
+
+#left-nav {
+  width: 50%;
+  border: solid black 2px;
+}
+
+#right-nav {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: solid black 2px;
+}
+
+p {
+  margin: 0em;
+}
